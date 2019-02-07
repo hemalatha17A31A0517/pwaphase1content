@@ -51,7 +51,7 @@ img{
 	justify-content: space-around;
 }
 .leftdiv{
-	background: red;
+	background: pink;
 	margin: 1%;
 	border-radius :4px;
 	text-align: center;
@@ -65,7 +65,8 @@ img{
 	box-shadow: 2px 2px 2px 2px;
 	border-radius: 3%;
 	width: 94%;
-	padding: 3%;
+	padding: 1%;
+	justify-content: space-around;
 }
 }
 /*tablet view*/
