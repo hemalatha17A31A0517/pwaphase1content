@@ -1,0 +1,93 @@
+/*desktop view*/
+body{
+	background: grey;
+	background-image: url(images/c.jpg);
+}
+#main{
+	display: flex;
+	background: pink;
+	margin: 3%;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: aqua;
+	margin: 2%;
+	border-radius :3px;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 30%;
+	height: 45%;
+}
+.leftdiv:hover{
+	background: lightgreen;
+}
+.rightdiv{
+	background: bisque;
+	margin: 2%;
+	border-radius: 4px;
+	box-shadow: 4px 4px 4px 4px;
+	width: 60%;
+	padding: 3%;
+}
+.rightdiv:hover{
+	background: lightgreen;
+}
+img{
+
+	margin: 1%;
+	border-radius: 4px;
+}
+
+/*mobile view*/
+@media screen and (max-width:480px) {
+	body{
+		background: blue;
+		background-image: url(images/b.jpg);
+	}
+	#main{
+	display: inline-block;
+	background: yellow;
+	margin: 1%;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: red;
+	margin: 1%;
+	border-radius :4px;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 96%;
+	height: 50%;
+}
+.rightdiv{
+	background: bisque;
+	margin: 1%;
+	box-shadow: 2px 2px 2px 2px;
+	border-radius: 3%;
+	width: 94%;
+	padding: 3%;
+}
+}
+/*tablet view*/
+@media screen and (min-width: 481px) and (max-width:680px) {
+	#main{
+	display: flex;
+	background: lightgreen;
+	margin: 3%;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: skyblue;
+	margin: 2%;
+	border-radius :4px;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 30%;
+	height: 45%;
+}
+.rightdiv{
+	background: bisque;
+	text-orientation: wrap;
+	font-size: 10px;
+}
+}

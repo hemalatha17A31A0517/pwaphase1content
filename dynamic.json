@@ -1,0 +1,61 @@
+{
+	"profile":{
+		"img":"images/profile pic.jpg",
+		"name":"k v v hemalatha",
+		"roll":"17A31A0517",
+		"institute":"Pragati Engineering College",
+		"place":"Raggampeta"
+	 },
+	"career":{
+		"info":" To secure a challenging position where i can explore my talents for the benifit of the organisation"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"b.tech",
+			"institute":"Pragati",
+			"yop":"2021"
+		},
+		{
+			"sno":"2",
+			"degree":"inter",
+			"institute":"aditya",
+			"yop":"2017"
+		},
+		{
+			"sno":"3",
+			"degree":"ssc",
+			"institute":"sri chaitanya",
+			"yop":"2015"
+		}
+	],
+	"languages":[
+		{
+			"lang":"English"
+		},
+		{
+			"lang":"Telugu"
+		},
+		{
+			"lang":"hindi"
+		}
+	],
+	"skills":
+		[
+		{
+			"skills":"c"
+		},
+		{
+			"skills":"c++"
+		},
+		{
+			"skills":"python"
+		},
+		{
+			"skills":"html"
+		},
+		{
+			"skills":"css"
+		}
+		]
+}
