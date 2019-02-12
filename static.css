@@ -68,6 +68,9 @@ img{
 	padding: 1%;
 	justify-content: space-around;
 }
+	table{
+	overflow-x: auto;
+}
 }
 /*tablet view*/
 @media screen and (min-width: 481px) and (max-width:680px) {
